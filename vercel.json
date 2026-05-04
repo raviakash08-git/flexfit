@@ -1,10 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "framework": "nextjs",
-  "env": {
-    "MONGO_URI": "@flexfit_mongo_uri",
-    "JWT_SECRET": "@flexfit_jwt_secret",
-    "PORTAL_JWT_EXPIRY": "2h"
-  }
+  "framework": "nextjs"
 }
